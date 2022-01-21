@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Outfit;
+}
+body {
+  font-size: 18px;
+}
+.container {
+  background-color: hsl(217, 54%, 11%);
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  background: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h3 {
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  padding: 15px 0px 5px 0px;
+  cursor: pointer;
+}
+h3:hover {
+  color: #00fff8;
+}
+p,
+.pri {
+  padding: 15px 0px 5px 0px;
+}
+.image img {
+  width: 300px;
+  border-radius: 10px;
+  display: block;
+}
+.quick-view {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 300px;
+  height: 300px;
+  background: #00fff8;
+  border-radius: 10px;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.quick-view:hover {
+  opacity: 0.5;
+}
+.avat {
+  padding: 10px;
+}
+.avat img {
+  width: 25px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.pri {
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  font-weight: 400;
+  color: #8bacd9;
+}
+svg {
+  padding-top: 3px;
+  padding-right: 4px;
+}
+.pri .eth span {
+  text-align: center;
+}
+.eth,
+.day {
+  display: flex;
+  justify-content: center;
+}
+hr {
+  background-color: hsl(215, 32%, 27%);
+  height: 0.1rem;
+  border: none;
+  margin-top: 13px;
+}
+.color {
+  color: #8bacd9;
+}
+.color1 {
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+.color1:hover {
+  color: #00fff8;
+}
+@media only screen and (max-width: 320px) {
+  .container {
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    width: 100%;
+  }
+}
+.attribution {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+}
